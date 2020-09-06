@@ -1,0 +1,103 @@
+@font-face {
+    font-family: mundo;
+    src: url("Mundo.otf") format("opentype")
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    min-height: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    text-transform: uppercase;
+    flex: 1;
+    padding-left: 40px;
+    letter-spacing: 0.1em;
+    font-family: 'mundo';
+    color: #474A47;
+    font-size: 37px;
+}
+#hooli-logo {
+    max-width: 195px;
+    max-height: 195px;
+    flex: 1;
+}
+#gavin-sign {
+    max-width: 277px;
+    max-height: 156px;
+    flex: 2;
+}
+nav {
+    background-color: #06ACE8;
+    height: 69px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 69px;
+    margin-top: 0;
+}
+nav ul li {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./assets/unsplash-semi-transparent.png");
+    margin: 0;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(6, 172, 232, 72);
+    margin: 0;
+    font-family: 'mundo';
+    font-size: 20px;
+    color: white;
+}
+section {
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 275px;
+    width: 430px;
+    margin-top: 276px;
+    box-shadow: 0px 3px 6px black;
+}
+section img {
+    width: 79px;
+    height: 77px;
+    background-color: #06ACE8;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+section p {
+    background-color: transparent;
+    margin: 0;
+    justify-self: center;
+    font-family: 'mundo';
+    padding-top: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
